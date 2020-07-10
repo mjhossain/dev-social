@@ -1,4 +1,0 @@
-{
-    "mongoURI": "mongodb+srv://moAdmin:Password_5@devconnector.jtrjq.mongodb.net/devmedia?retryWrites=true&w=majority",
-    "jwtSecret": "devmedia"
-}
