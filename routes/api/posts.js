@@ -76,7 +76,6 @@ router.post('/', [auth, [
 })
 
 
-
 // @route       DELETE api/posts/:id
 // @desc        Delete Post by ID
 // @access      Private
