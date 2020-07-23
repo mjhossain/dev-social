@@ -8,7 +8,16 @@ const config = require('config')
 
 const User = require('../../models/users')
 
-// @route       Post api/users
+
+// @route       GET api/users
+// @desc        Test router
+// @access      Public
+router.get('/', (req, res) => {
+    res.send('Its working')
+})
+
+
+// @route       POST api/users
 // @desc        Test router
 // @access      Public
 router.post('/', [
